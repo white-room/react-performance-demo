@@ -36,9 +36,9 @@ export default function HomePage() {
 
       </div>
 
-      {/* <div className="pt-20">
+      <div className="pt-20">
         <FilterList />
-      </div> */}
+      </div>
     </>
   );
 }
