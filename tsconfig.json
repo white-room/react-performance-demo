@@ -14,9 +14,15 @@
     "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "Node16",
+    "moduleResolution": "node",
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"],
+      "pages/*": ["pages/*"]
+    },
+    "resolveJsonModule": true
   },
   "include": [
     "next-env.d.ts",
