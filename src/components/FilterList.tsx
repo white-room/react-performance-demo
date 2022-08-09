@@ -31,9 +31,7 @@ export default function FilterList() {
   if (!shouldRender) return null;
 
   return (
-    <div className="">
-      <h2 className="font-bold text-xl">FilterList</h2>
-
+    <div>
       <div className="mb-10">
         <label className="mr-2">Filter:</label>
         <TextInput

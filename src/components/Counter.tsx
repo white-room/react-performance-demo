@@ -1,4 +1,3 @@
-import { memo } from "react";
 import Button from "src/components/Button";
 import doSomethingExpensive from "src/utils/doSomethingExpensive";
 
